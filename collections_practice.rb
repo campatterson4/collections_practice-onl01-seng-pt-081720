@@ -26,7 +26,7 @@ def find_a(array)
   array.keep_if {|arr| arr[0]=="a"}
 end
 
-def sum_array(array)
+def sum_array(array) #confusing omg
   #same as array.inject(0){|sum,arr| sum+arr}
   array.inject(0, :+)
 end
